@@ -1,66 +1,213 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Portfolio React Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Full-Stack Developer Portfolio** built with **Laravel 10 (API)** and **React 18 (SPA)**. This project serves as a modern, responsive, and customizable portfolio platform, ideal for showcasing personal projects, skills, and professional experiences.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* **React 18** frontend with component-based architecture
+* **Laravel 10** backend serving as a RESTful API
+* **Tailwind CSS** for rapid and responsive UI design
+* **Vite** for fast development and optimized builds
+* **TypeScript** support for type safety and scalability
+* **ESLint & Prettier** configured for consistent code formatting
+* **Authentication** system ready for integration
+* **Modular structure** for easy customization and scalability
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 📁 Project Structure
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+```
+portfolio-react-laravel/
+├── app/                # Laravel backend application
+├── bootstrap/          # Laravel bootstrap files
+├── config/             # Configuration files
+├── database/           # Migrations and seeders
+├── public/             # Public assets and entry points
+├── resources/
+│   ├── js/             # React frontend source code
+│   └── views/          # Blade templates (if any)
+├── routes/             # API and web routes
+├── storage/            # Storage for logs and compiled files
+├── tests/              # Test cases
+├── .env.example        # Environment variable example file
+├── package.json        # Node.js dependencies
+├── composer.json       # PHP dependencies
+└── README.md           # Project documentation
+```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠️ Installation
 
-## Laravel Sponsors
+### Prerequisites
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+* PHP >= 8.1
+* Composer
+* Node.js >= 16
+* MySQL or any other supported database
 
-### Premium Partners
+### Backend Setup (Laravel)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+1. **Clone the repository:**
 
-## Contributing
+   ```bash
+   git clone https://github.com/emirbaycan/portfolio-react-laravel.git
+   cd portfolio-react-laravel
+   ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+2. **Install PHP dependencies:**
 
-## Code of Conduct
+   ```bash
+   composer install
+   ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+3. **Copy and configure the environment file:**
 
-## Security Vulnerabilities
+   ```bash
+   cp .env.example .env
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+   Update the `.env` file with your database credentials and other necessary configurations.
 
-## License
+4. **Generate application key:**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+   ```bash
+   php artisan key:generate
+   ```
+
+5. **Run migrations (and seeders if available):**
+
+   ```bash
+   php artisan migrate --seed
+   ```
+
+6. **Start the Laravel development server:**
+
+   ```bash
+   php artisan serve
+   ```
+
+   The backend API will be accessible at `http://localhost:8000`.
+
+### Frontend Setup (React)
+
+1. **Navigate to the `resources/js` directory:**
+
+   ```bash
+   cd resources/js
+   ```
+
+2. **Install Node.js dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the React development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   The frontend will be accessible at `http://localhost:5173`.
+
+---
+
+## ⚙️ Configuration
+
+* **API Base URL:** Ensure that the React application communicates with the correct Laravel API endpoint. Update the API base URL in your frontend configuration files as needed.
+
+* **CORS:** Configure Laravel's CORS settings in `config/cors.php` to allow requests from your frontend domain.
+
+---
+
+## 🧪 Testing
+
+### Backend Tests
+
+```bash
+php artisan test
+```
+
+### Frontend Tests
+
+If you have set up testing frameworks like Jest or React Testing Library:
+
+```bash
+npm run test
+```
+
+---
+
+## 📦 Deployment
+
+### Backend Deployment
+
+1. **Set up your production environment with PHP, Composer, and a web server (e.g., Nginx or Apache).**
+
+2. **Clone the repository and install dependencies:**
+
+   ```bash
+   git clone https://github.com/emirbaycan/portfolio-react-laravel.git
+   cd portfolio-react-laravel
+   composer install --optimize-autoloader --no-dev
+   ```
+
+3. **Set up the `.env` file and generate the application key:**
+
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. **Run migrations:**
+
+   ```bash
+   php artisan migrate --force
+   ```
+
+5. **Set appropriate permissions for storage and bootstrap cache:**
+
+   ```bash
+   chmod -R 775 storage
+   chmod -R 775 bootstrap/cache
+   ```
+
+### Frontend Deployment
+
+1. **Navigate to the `resources/js` directory:**
+
+   ```bash
+   cd resources/js
+   ```
+
+2. **Build the React application:**
+
+   ```bash
+   npm run build
+   ```
+
+3. **Serve the compiled assets:**
+
+   The compiled assets will be located in the `public` directory. Ensure your web server serves these static files correctly.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+
+For any inquiries or feedback, please reach out to [emirbaycan](https://github.com/emirbaycan).
