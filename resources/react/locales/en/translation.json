@@ -1,5 +1,5 @@
 {
-  "navLinks":  [
+  "navLinks": [
     {
       "id": "about",
       "title": "About"
@@ -13,159 +13,590 @@
       "title": "Contact"
     }
   ],
-  "services":[
+  "services": [
     {
-      "title": "Web Developer"
-    },
-    {
-      "title": "React Native Developer"
+      "title": "Full Stack Web Developer"
     },
     {
       "title": "Backend Developer"
     },
     {
-      "title": "Content Creator"
-    }
-  ],
-  "testimonials":[
-    {
-      "testimonial":
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      "name": "Sara Lee",
-      "designation": "CFO",
-      "company": "Acme Co",
-      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+      "title": "AI & Automation Engineer"
     },
     {
-      "testimonial":
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      "name": "Chris Brown",
-      "designation": "COO",
-      "company": "DEF Corp",
-      "image": "https://randomuser.me/api/portraits/men/5.jpg"
-    },
-    {
-      "testimonial":
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      "name": "Lisa Wang",
-      "designation": "CTO",
-      "company": "456 Enterprises",
-      "image": "https://randomuser.me/api/portraits/women/6.jpg"
+      "title": "Technical Content Creator"
     }
   ],
-  "project":[
+  "testimonials": [
     {
-      "name": "Car Rent",
-      "description":
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "testimonial": "We completely modernized our law firm's digital infrastructure with Emir. The dynamic admin panel and customer management solutions exceeded our expectations.",
+      "name": "Av. Murat Kara",
+      "designation": "Founder Lawyer",
+      "company": "My Partners Hukuk Bürosu"
+    },
+    {
+      "testimonial": "He digitized all our membership and event processes from scratch. A unique partner for fast delivery and technical support.",
+      "name": "Murat Kara",
+      "designation": "Founder",
+      "company": "Girişimci Hukukçular Derneği"
+    },
+    {
+      "testimonial": "After he built our corporate site and catalog system, customer feedback increased by 40%. Software quality and project follow-up are truly top-notch.",
+      "name": "Burak Kara",
+      "designation": "Founder",
+      "company": "Karalar Prefabrik"
+    }
+  ],
+  "project": [
+    {
+      "name": "Kalenuxer",
+      "description": "Next-generation, multilingual, modular, SSR-enabled web application framework optimized for performance and flexibility.",
+      "tags": [
+        {
+          "name": "node.js",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "ssr",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "multi-language",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/kalenuxer/1.webp",
+      "sourceCodeLink": "https://github.com/emirbaycan/Kalenuxer"
+    },
+    {
+      "name": "My Partners Hukuk Bürosu",
+      "description": "Dynamic legal firm website with optimized SSR, live content updates, and a powerful admin panel for law offices.",
+      "tags": [
+        {
+          "name": "ssr",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "dynamic-panel",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "kalenuxer",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/myp/1.webp",
+      "sourceCodeLink": "https://myp.emirbaycan.com.tr"
+    },
+    {
+      "name": "Hukuki Yeterlilik Akademisi",
+      "description": "Comprehensive educational platform management panel with multi-level user access, live updates, and secure content.",
+      "tags": [
+        {
+          "name": "kalenuxer",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "panel",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "multi-course",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/hya/1.webp",
+      "sourceCodeLink": "https://hya.emirbaycan.com.tr"
+    },
+    {
+      "name": "Morkoç Hukuk Bürosu",
+      "description": "Fast and secure legal website with dynamic content management and custom admin panel.",
+      "tags": [
+        {
+          "name": "law",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "panel",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "kalenuxer",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/morkoc/1.webp",
+      "sourceCodeLink": "https://lawnux.emirbaycan.com.tr"
+    },
+    {
+      "name": "Karalar Prefabrik",
+      "description": "Advanced catalog management and customer interaction web platform for prefabricated housing companies.",
+      "tags": [
+        {
+          "name": "prefabric",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "catalog",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "kalenuxer",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/kp/1.webp",
+      "sourceCodeLink": "https://kp.emirbaycan.com.tr"
+    },
+    {
+      "name": "Eyüp Sultan Tulumbacısı",
+      "description": "Modern, high-conversion e-commerce site for a popular Turkish dessert brand.",
+      "tags": [
+        {
+          "name": "e-commerce",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "panel",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "product-management",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/est/1.webp",
+      "sourceCodeLink": "https://eyp.emirbaycan.com.tr"
+    },
+    {
+      "name": "Girişimci Hukukçular Derneği",
+      "description": "Membership management and event automation system for a legal association.",
+      "tags": [
+        {
+          "name": "lamp",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "event",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "membership",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/ghd/1.webp",
+      "sourceCodeLink": "https://ghd.emirbaycan.com.tr"
+    },
+    {
+      "name": "Hukuk Eğitim Programları",
+      "description": "Community website and control panel with multi-course content support, always updated with new features.",
+      "tags": [
+        {
+          "name": "multi-course",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "panel",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "kalenuxer",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/hep/1.webp",
+      "sourceCodeLink": "https://hep.emirbaycan.com.tr"
+    },
+    {
+      "name": "Do Eloboost",
+      "description": "Online game service site and admin panel optimized for automation, performance, and security.",
+      "tags": [
+        {
+          "name": "game",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "automation",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "panel",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/de/1.webp",
+      "sourceCodeLink": "https://de.emirbaycan.com.tr"
+    },
+    {
+      "name": "Terapi Kliniği",
+      "description": "Dynamic website and control panel for psychologists, built with Laravel and custom JS.",
+      "tags": [
+        {
+          "name": "laravel",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "js",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "psychology",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/tk/1.webp",
+      "sourceCodeLink": ""
+    },
+    {
+      "name": "Murat Bulat Hukuk Bürosu",
+      "description": "Legal office website with automatic document management and secure client portal.",
+      "tags": [
+        {
+          "name": "lamp",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "automation",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "panel",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/mb/1.webp",
+      "sourceCodeLink": ""
+    },
+    {
+      "name": "LAMP ile Portfolio",
+      "description": "Multilingual portfolio website demonstrating full-stack skills and scalable architecture.",
+      "tags": [
+        {
+          "name": "portfolio",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "multi-language",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "lamp",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/lamp/1.webp",
+      "sourceCodeLink": "https://lamp.emirbaycan.com.tr"
+    },
+    {
+      "name": "React ile Portfolio",
+      "description": "Dynamic, multilingual portfolio website built with React, Node.js, and MySQL.",
       "tags": [
         {
           "name": "react",
           "color": "blue-text-gradient"
         },
         {
-          "name": "mongodb",
+          "name": "node.js",
           "color": "green-text-gradient"
         },
         {
-          "name": "tailwind",
+          "name": "mysql",
           "color": "pink-text-gradient"
         }
       ],
-      "sourceCodeLink": "https:://github.com/"
+      "image": "https://assets.emirbaycan.com.tr/images/mern/1.webp",
+      "sourceCodeLink": "https://mern.emirbaycan.com.tr"
     },
     {
-      "name": "Job IT",
-      "description":
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "name": "Laravel ve React ile Portfolyo",
+      "description": "Interactive, modern portfolio site with Laravel, React, Node.js, and Three.js.",
       "tags": [
+        {
+          "name": "laravel",
+          "color": "blue-text-gradient"
+        },
         {
           "name": "react",
-          "color": "blue-text-gradient"
-        },
-        {
-          "name": "restapi",
           "color": "green-text-gradient"
         },
         {
-          "name": "scss",
+          "name": "three.js",
           "color": "pink-text-gradient"
         }
       ],
-      "sourceCodeLink": "https:://github.com/"
+      "image": "https://assets.emirbaycan.com.tr/images/nmlr/1.webp",
+      "sourceCodeLink": "https://nmlr.emirbaycan.com.tr"
     },
     {
-      "name": "Trip Guide",
-      "description":
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "name": "Next ile Portfolio",
+      "description": "Dynamic, cloud-scalable, multilingual portfolio website built with Next.js.",
       "tags": [
         {
-          "name": "nextjs",
+          "name": "next.js",
           "color": "blue-text-gradient"
         },
         {
-          "name": "supabase",
+          "name": "multi-language",
           "color": "green-text-gradient"
         },
         {
-          "name": "css",
+          "name": "cloud",
           "color": "pink-text-gradient"
         }
       ],
-      "sourceCodeLink": "https:://github.com/"
+      "image": "https://assets.emirbaycan.com.tr/images/next/1.webp",
+      "sourceCodeLink": "https://next.emirbaycan.com.tr"
+    },
+    {
+      "name": "Hesap Oluşturucu",
+      "description": "C# & Selenium powered automatic account creator with proxy/cloud support.",
+      "tags": [
+        {
+          "name": "c#",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "selenium",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "cloud",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/ac/1.webp",
+      "sourceCodeLink": ""
+    },
+    {
+      "name": "Oylayıcı",
+      "description": "Python & Selenium + Tor browser: scalable, anonymized human data generator and user simulator.",
+      "tags": [
+        {
+          "name": "python",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "selenium",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "tor",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/v/1.webp",
+      "sourceCodeLink": ""
+    },
+    {
+      "name": "Hız ve Uzunluk Hesaplayıcı",
+      "description": "Object height calculator using mathematical modeling and custom Python algorithms.",
+      "tags": [
+        {
+          "name": "python",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "algorithm",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "modeling",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/shc/1.webp",
+      "sourceCodeLink": ""
+    },
+    {
+      "name": "Dijital Ekran Bulucu",
+      "description": "Real-time digital screen detection from camera using Python & YOLO.",
+      "tags": [
+        {
+          "name": "python",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "yolo",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "computer-vision",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/dsd/1.webp",
+      "sourceCodeLink": "https://github.com/emirbaycan/yolo_digital_screen_detector"
+    },
+    {
+      "name": "Dijital Ekran Okuyucu",
+      "description": "Real-time OCR reader for digital screens in live video with Python.",
+      "tags": [
+        {
+          "name": "python",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "ocr",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "vision",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/dsr/1.webp",
+      "sourceCodeLink": "https://github.com/emirbaycan/ocr_digital_screen_reader"
+    },
+    {
+      "name": "Dijital Ekran Alarmı",
+      "description": "Realtime screen monitoring and alerting system, with automatic image capture on threshold using Python.",
+      "tags": [
+        {
+          "name": "python",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "rtsp",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "alarm",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "https://assets.emirbaycan.com.tr/images/dsa/1.webp",
+      "sourceCodeLink": "https://github.com/emirbaycan/digital_screen_alarm_with_rtsp_camera"
     }
   ],
-  "experiences":[
+  "experiences": [
     {
-      "title": "React.js Developer",
-      "companyName": "Starbucks",
-      "icon": "starbucks",
+      "title": "Software Specialist",
+      "companyName": "Karalar Kağıt",
+      "icon": "git",
       "iconBg": "#383E56",
-      "date": "March 2020 - April 2021",
+      "date": "Sep 2024 - Nov 2024",
       "points": [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers."
+        "Took full responsibility in the analysis and development of enterprise web projects.",
+        "Developed custom modules based on client needs and deployed them.",
+        "Contributed to integration and technical documentation with cross-functional teams."
       ]
     },
     {
-      "title": "React Native Developer",
-      "companyName": "Tesla",
-      "icon": "tesla",
+      "title": "Software Specialist",
+      "companyName": "My Partners Hukuk Bürosu",
+      "icon": "git",
       "iconBg": "#E6DEDD",
-      "date": "Jan 2021 - Feb 2022",
+      "date": "Jan 2024 - Present",
       "points": [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers."
+        "Responsible for planning, developing, and maintaining digital infrastructure and automation projects.",
+        "Optimized customer management, dynamic panels, and document automation for the legal domain.",
+        "Delivered custom admin panel and user management using Kalenuxer infrastructure."
       ]
     },
     {
-      "title": "Web Developer",
-      "companyName": "Shopify",
-      "icon": "shopify",
+      "title": "Web Programmer",
+      "companyName": "Eyüp Sultan Tulumbacısı",
+      "icon": "git",
       "iconBg": "#383E56",
-      "date": "Jan 2022 - Jan 2023",
+      "date": "Oct 2022 - Dec 2022",
       "points": [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers."
+        "Led design, development, and go-live of web and e-commerce platforms.",
+        "Created modules focused on product management and customer experience."
       ]
     },
     {
-      "title": "Full stack Developer",
-      "companyName": "Meta",
-      "icon": "meta",
+      "title": "Software Specialist",
+      "companyName": "Hukuki Yeterlilik Akademisi",
+      "icon": "git",
       "iconBg": "#E6DEDD",
-      "date": "Jan 2023 - Present",
+      "date": "Mar 2022 - Aug 2023",
       "points": [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers."
+        "Analyzed and developed user and exam modules for a comprehensive education platform.",
+        "Designed panels with multi-level access and real-time update features."
+      ]
+    },
+    {
+      "title": "Software Specialist",
+      "companyName": "Terapi Kliniği",
+      "icon": "git",
+      "iconBg": "#383E56",
+      "date": "Feb 2022 - Apr 2022",
+      "points": [
+        "Developed client tracking system and online appointment infrastructure.",
+        "Implemented a dynamic Laravel-based website and content management."
+      ]
+    },
+    {
+      "title": "Software Specialist",
+      "companyName": "Morkoç Hukuk Bürosu",
+      "icon": "git",
+      "iconBg": "#E6DEDD",
+      "date": "Jul 2021 - Sep 2021",
+      "points": [
+        "Actively contributed to software processes for document management and online consultancy modules."
+      ]
+    },
+    {
+      "title": "CEO",
+      "companyName": "Kalenux",
+      "icon": "git",
+      "iconBg": "#383E56",
+      "date": "Feb 2021 - Feb 2023",
+      "points": [
+        "Led all phases of software development, team management, and business development.",
+        "Built microservice and full-stack application architecture, managed innovation-driven projects."
+      ]
+    },
+    {
+      "title": "Software Specialist",
+      "companyName": "Karalar Prefabrik",
+      "icon": "git",
+      "iconBg": "#E6DEDD",
+      "date": "Sep 2020 - Nov 2020",
+      "points": [
+        "Took an active role in the analysis and development of corporate website and customer communication systems."
+      ]
+    },
+    {
+      "title": "Web Software Specialist",
+      "companyName": "Hukuk Eğitim Programları",
+      "icon": "git",
+      "iconBg": "#383E56",
+      "date": "Jan 2020 - Jan 2021",
+      "points": [
+        "Developed web-based software solutions tailored to education programs."
+      ]
+    },
+    {
+      "title": "Software Specialist",
+      "companyName": "Do Eloboost",
+      "icon": "git",
+      "iconBg": "#E6DEDD",
+      "date": "Jan 2019 - Jan 2023",
+      "points": [
+        "Developed and automated backend for a gaming platform.",
+        "Designed management panel and customer automation modules."
+      ]
+    },
+    {
+      "title": "Software Specialist",
+      "companyName": "Murat Bulat Hukuk Bürosu",
+      "icon": "git",
+      "iconBg": "#383E56",
+      "date": "Jan 2019 - Apr 2019",
+      "points": [
+        "Worked on the development of web-based software and automation systems."
+      ]
+    },
+    {
+      "title": "Software Specialist",
+      "companyName": "Girişimci Hukukçular Derneği",
+      "icon": "git",
+      "iconBg": "#E6DEDD",
+      "date": "Jan 2018 - Jan 2019",
+      "points": [
+        "Took an active role in planning and developing digital projects tailored to the association."
       ]
     }
   ],
@@ -175,11 +606,10 @@
     "email": "emir-baycan@hotmail.com"
   },
   "hero": {
-    "introduction": "Hi I'm",
+    "introduction": "Hi, I'm",
     "name": "Emir Baycan",
     "p": [
-      "I develop 3D visuals, user",
-      "interfaces and web applications"
+      "I build high-performance, scalable web apps, AI tools, and automation systems. Let's create the future together."
     ]
   },
   "contact": {
@@ -204,7 +634,7 @@
     "about": {
       "p": "Introduction",
       "h2": "Overview.",
-      "content": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
+      "content": "I'm a full-stack developer, entrepreneur, and technology enthusiast. I build web/mobile apps, AI, and automation projects with experience in Python, C#, JavaScript, React, Angular, Node.js, Docker, and cloud. My goal is to create sustainable, scalable systems that make life easier through technology. Always learning, building, and innovating."
     },
     "experience": {
       "p": "What I have done so far",
@@ -217,15 +647,15 @@
     "works": {
       "p": "My work",
       "h2": "Projects.",
-      "content": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+      "content": "These projects showcase my real-world skills, from backend development to UI/UX, automation, and AI solutions. Check the links for source code and live demos."
     }
   },
-  "alerts":{
-    "success":"Thank you. I will get back to you as soon as possible.",
-    "failure":"Something went wrong."
+  "alerts": {
+    "success": "Thank you. I will get back to you as soon as possible.",
+    "failure": "Something went wrong."
   },
-  "loading":{
-    "sending":"Sending...",
-    "send":"Send"
+  "loading": {
+    "sending": "Sending...",
+    "send": "Send"
   }
 }

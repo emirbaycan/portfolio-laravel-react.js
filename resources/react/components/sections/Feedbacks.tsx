@@ -28,12 +28,6 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = (testimonial) =
               {testimonial.designation} of {testimonial.company}
             </p>
           </div>
-
-          <img
-            src={images[testimonial.index].image}
-            alt={`feedback_by-${testimonial.name}`}
-            className="h-10 w-10 rounded-full object-cover"
-          />
         </div>
       </div>
     </motion.div>
